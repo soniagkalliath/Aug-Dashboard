@@ -1,0 +1,30 @@
+<mat-list role="list">
+    <div class="profile">
+        <div>
+            <h2>Sonia George</h2>
+            <h4>soniagkalliath@gmail.com</h4>
+        </div>
+        <img src="https://images.unsplash.com/photo-1529429617124-95b109e86bb8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9&s=4be6f29d095bc56cb800cc08ea6b3480" alt="no image" srcset="">
+    </div>
+    <mat-divider></mat-divider>
+    <h2 mat-subheader>Pages</h2>
+    <!-- <mat-list-item routerLinkActive="list-item-active" ><a routerLink=''>Dashboard</a></mat-list-item> -->
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">
+        Dashboard
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/posts">
+        Post
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">
+        Article
+    </a>   
+     <mat-divider></mat-divider>
+    <h2 mat-subheader>Tools</h2>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">
+        <mat-icon>import_contacts</mat-icon> &nbsp; Contacts
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">
+        <mat-icon>contact_phone</mat-icon> &nbsp; Leads
+    </a>
+  </mat-list>
+  

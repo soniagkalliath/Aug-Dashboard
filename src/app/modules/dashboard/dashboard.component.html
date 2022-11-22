@@ -1,0 +1,34 @@
+<div>
+    <app-area></app-area>
+</div>
+<mat-divider></mat-divider>
+<!-- cards -->
+<div class="card" fxLayout="row" fxLayoutAlign="space-evenly center" fxLayoutGap="20px">
+    <mat-card fxFlex="25">
+        <mat-card-content>
+            <!-- child -->
+            <app-cards [label]="title1" ></app-cards>
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card fxFlex="25">
+        <mat-card-content>
+            <app-cards [label]="title2"></app-cards>
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card fxFlex="25">
+        <mat-card-content>
+            <app-cards [label]="title3"></app-cards>
+        </mat-card-content>
+      </mat-card> 
+</div>
+
+<div class="row1" fxLayout="row" fxLayoutAlign="space-between" fxLayoutGap="20px">
+    <div fxFlex="60">
+        <app-table></app-table>
+    </div>
+    <div fxFlex="40">
+        <app-pie></app-pie>
+    </div>
+</div>
